@@ -19,7 +19,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["*" ,"http://localhost:4200"],
+    origin: ["*", "https://pb-backend-wawb.onrender.com/" ,"http://localhost:4200"],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true,
   })
